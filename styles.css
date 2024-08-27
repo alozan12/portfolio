@@ -342,6 +342,7 @@ input[type="submit"] {
 .image5 {
   display: grid;
   place-items: center;
+  margin-top: 10%;
   
   
 }
