@@ -346,6 +346,105 @@ input[type="submit"] {
   
   
 }
+.quote {
+  font-family: 'Space Mono', cursive; /* Cursive font for the quote */
+  font-style: italic;
+  font-size: 4rem; /* Size of the quote */
+  color: var(--primary-color); /* Matches your theme */
+  text-align: center;
+  margin-top: 1.5rem; /* Space above the quote */
+}
+
+.author {
+  font-family: 'Blinker', sans-serif; /* Different font style for the author */
+  font-size: 2rem; /* Smaller size for the author's name */
+  color: #b7b7b7; /* Subtle color to differentiate from the quote */
+  text-align: center;
+  margin-top: 0.5rem; /* Space below the quote */
+}
+
+.resume-download {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
+.skills-overview {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  cursor: pointer; /* Indicate it's interactive */
+}
+
+/* Hover effect */
+.skills-list li:hover {
+  background-color: var(--primary-color); /* Your green color */
+  color: white; /* White text on hover */
+  transform: scale(1.05); /* Slightly increase size */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+table th, table td {
+  border: 1px solid #17ca0a;
+  padding: 1rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #141313;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+table td {
+  color: #b7b7b7;
+}
+
+.image3 img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
 
 
 .image img {
