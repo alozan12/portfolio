@@ -221,10 +221,12 @@ h5 {
 .description5 {
   line-height: 1.5rem;
   color: #b7b7b7;
+  font-size: 6mm;
   margin-bottom: 1rem;
   margin-left: 2rem;
  
 }
+
 .section {
   background-color: var(--black-color);
 }
