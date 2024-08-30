@@ -364,11 +364,60 @@ video{
   justify-content: center;
   align-items: center;
 }
-.buttons{
-  gap: 1rem;
-  display: flex;
-  align-items: center;
+
+.buttons2 {
+  display: flex; /* Use flexbox to align items */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Center vertically if the container has height */
+  gap: 2rem; /* Space between buttons */
+  text-decoration: none;
+  padding-left: 0rem; /* Optional: add padding to center within a larger container */
 }
+
+.buttons2 .hire__me {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--primary-color); /* Green button */
+  color: white;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer;
+}
+
+.buttons2 .portfolio {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: white; /* White button */
+  color: var(--primary-color);
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer;
+}
+
+/* Hover Effects */
+.buttons2 .hire__me:hover {
+  background-color: white; /* Swap colors on hover */
+  color: var(--primary-color);
+  transform: scale(1.1); /* Slightly enlarge the button */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+.buttons2 .portfolio:hover {
+  background-color: var(--primary-color); /* Swap colors on hover */
+  color: white;
+  transform: scale(1.1); /* Slightly enlarge the button */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+
 .button {
   
   display: inline-block;
