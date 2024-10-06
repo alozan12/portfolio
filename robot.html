@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="Description" content="Detailed project description and background of one of Abraham's programming projects." />
   <link rel="stylesheet" href="styles.css" />
-  <title>Project Name | Abraham's Portfolio</title>
+  <title>Project SPYN | Abraham's Portfolio</title>
 </head>
 <body>
+  <!-- Navigation Bar -->
   <nav>
     <div class="nav__content">
       <div class="logo"><a href="index.html"><b>Abraham</b></a></div>
@@ -21,29 +22,37 @@
       </ul>
     </div>
   </nav>
-  <main>
 
+  <!-- Main Content -->
+  <main>
     <!-- Hero Section with Large Image -->
     <section class="hero">
       <img src="hero-image.jpg" alt="Project Hero Image" class="hero-image">
       <div class="hero-text">
-        <h1> Project SPYN</h1>
+        <h1>Project SPYN</h1>
       </div>
     </section>
-    <div class="project-images">
-        <img src="robot1.png" alt="Screenshot of Project" class="project-image" />
-        <img src="robot2.png" alt="Screenshot of Project" class="project-image" />
-        <img src="robot3.png" alt="Screenshot of Project" class="project-image" />
-      </div>
 
-    <!-- Project Content Section -->
+    <!-- Project Images Section -->
+    <div class="project-images">
+      <img src="robot2.png" alt="Screenshot of Project" class="project-image" />
+      <img src="robot1.png" alt="Screenshot of Project" class="project-image" />
+      <img src="robot3.png" alt="Screenshot of Project" class="project-image" />
+    </div>
+
+    <!-- Video Section -->
+    <section class="video-section">
+     
+      
+
+    <!-- Project Details Section -->
     <section class="project-details">
       <div class="section__container2">
         <!-- Project Goal -->
         <div class="project-goal">
           <h2>Project Goal</h2>
           <p class="description6">
-            Program and design a robot car to navigate a maz whilie picking up and dropping off a passenger using MATLAB.
+            Program and design a robot car to navigate a maze while picking up and dropping off a passenger using MATLAB.
           </p>
         </div>
 
@@ -51,14 +60,25 @@
         <div class="project-background">
           <h2>Project Background</h2>
           <p class="description6">
-            We utilized MATLAB to navigate a car through a maze. The robot must respond to external stimuli: If the robot senses green, it must initialize it’s process; red, indicates it must stop for 4 seconds; yellow indicates passenger pick up; and blue indicates drop-off zone. The robot utilizes gyro, touch, color, and distance sensors to avoid walls and detect the colors. 
+            We utilized MATLAB to navigate a car through a maze. The robot must respond to external stimuli: If the robot senses green, it must initialize its process; red indicates it must stop for 4 seconds; yellow indicates passenger pick up; and blue indicates drop-off zone. The robot utilizes gyro, touch, color, and distance sensors to avoid walls and detect the colors.
           </p>
         </div>
       </div>
+      <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-container">
+        <video controls>
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+  </div>
+</section>
 
      
     </section>
   </main>
+
+  <!-- Footer -->
   <footer>
     Abraham Lozano Serna Personal Portfolio<br>
     <a href="mailto:alozan12@asu.edu" class="description4">alozan@asu.edu</a> - (480)200-7546
