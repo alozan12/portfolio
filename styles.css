@@ -257,7 +257,7 @@ h5 {
 
 .project-image {
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   border-radius: 5px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
