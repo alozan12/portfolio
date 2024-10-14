@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="Description" content="Detailed project description and background of one of Abraham's programming projects." />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Project SPYN | Abraham's Portfolio</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="index.html"><b>Abraham</b></a></div>
+      <ul>
+        <li><a href="mission.html">My Mission</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="resume.html">Resume & Skills</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section with Large Image -->
+    <section class="hero">
+      <img src="hero-image.jpg" alt="Project Hero Image" class="hero-image">
+      <div class="hero-text">
+        <h1>TurtleBot Planning and Action Refinement</h1>
+      </div>
+    </section>
+
+    <!-- Project Images Section -->
+    <div class="project-images">
+      <img src="ai22.png" alt="Screenshot of Project" class="project-image" />
+      <img src="ai21.png" alt="Screenshot of Project" class="project-image" />
+    </div>
+
+    
+    <!-- Project Details Section -->
+    <section class="project-details">
+      <div class="section__container2">
+        <!-- Project Goal -->
+        <div class="project-goal">
+          <h2>Project Goal</h2>
+          <p class="description6">
+            This project is centered around implementing planning techniques using PDDL (Planning Domain Definition Language) in dynamic environments, such as bookWorld and cafeWorld, where TurtleBot3 operates. The project focuses on understanding and applying concepts of domain and problem formulation, action definitions, and planning algorithms. It builds upon the high-level planning tasks covered in class, challenging students to implement PDDL files, define actions for the robot (like picking and moving objects), and refine these high-level actions into low-level executable steps that can be simulated in the Gazebo environment. Students will need to complete the PDDL files, implement a downward refinement process, and ensure the TurtleBot3 can successfully navigate the environment, pick up objects, and place them in goal locations, following an optimal plan.
+          </p>
+        </div>
+
+        <!-- Project Background -->
+        <div class="project-background">
+          <h2>Project Background</h2>
+          <p class="description6">
+            The goal is to develop a complete planning solution for TurtleBot3 in both bookWorld and cafeWorld environments. This involves:
+
+            Completing the domain and problem PDDL files, specifically defining the pick and move actions and writing a problem-independent goal for the robot.
+            Implementing downward refinement of high-level plans, where actions like "move" are translated into a sequence of low-level commands (e.g., MoveF, TurnCW) that TurtleBot3 can execute.
+            Testing the implemented solution in Gazebo, ensuring that the robot can autonomously navigate, pick up objects, and place them in correct locations based on size and type.
+            Optionally, improving the plan's quality by reducing the number of actions through more efficient planners and search algorithms.
+          </p>
+        </div>
+      </div>
+    
+  </div>
+</section>
+
+     
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    Abraham Lozano Serna Personal Portfolio<br>
+    <a href="mailto:alozan12@asu.edu" class="description4">alozan@asu.edu</a> - (480)200-7546
+  </footer>
+</body>
+</html>
