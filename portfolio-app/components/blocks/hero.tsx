@@ -12,7 +12,7 @@ interface HeroAction {
   variant?: "default" | "outline" | "ghost" | "link" | "destructive" | "secondary"
 }
 
-interface HeroProps extends React.HTMLAttributes<HTMLElement> {
+interface HeroProps extends Omit<React.HTMLAttributes<HTMLElement>, 'title'> {
   gradient?: boolean
   blur?: boolean
   title: React.ReactNode
